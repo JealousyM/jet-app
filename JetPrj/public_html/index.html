@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>index</title>
+        <link rel="stylesheet" href="css/libs/oj/v2.0.0/alta/oj-alta-min.css" type="text/css"/>
+        <script data-main="js/main" src="js/libs/require/require.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <label for="input">Input value:</label>
+            <input id="input" type="text" data-bind="ojComponent: {component: 'ojInputText', value: value}"/> 
+            <span class="oj-label">Current value is:</span>
+            <span data-bind="text: value"></span>
+        </div>
+    </body>
+</html>
